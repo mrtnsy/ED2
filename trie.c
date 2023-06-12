@@ -89,10 +89,10 @@ int main(){
             case 1:
                 file = fopen("dicionario.txt", "r");
                 printf("\nAs palavras que constam no dicionario sao: \n\n");
-                char palavras[10];
+                char palavras[31];
                 int count = 0;
 
-                while(fgets(palavras,10,file) != NULL){
+                while(fgets(palavras,31,file) != NULL){
                     printf("%s", palavras);
                     count++;
                 }
