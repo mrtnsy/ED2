@@ -114,7 +114,7 @@ int main(){
                 break;
 
             case 3:
-                printf("Programa Encerrado!");
+                printf("Programa Encerrado!\n\n");
                 break;
             
             default:
@@ -124,7 +124,7 @@ int main(){
         }
     }
     while(op != 3);
-   
+    system("pause");
     
     return 0;
 }
